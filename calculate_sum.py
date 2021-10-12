@@ -7,3 +7,5 @@ def calculate_sum(operation, first_number, second_number):
         return first_number - second_number
     elif operation == "/":
         return first_number / second_number
+    elif operation == "%":
+        return first_number % second_number
